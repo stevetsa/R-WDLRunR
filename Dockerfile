@@ -10,8 +10,8 @@ MAINTAINER Steve Tsang <mylagimail2004@yahoo.com>
 # Updates and Installs
 
 # install WDLRunR
-RUN echo 'require(devtools)\ndevtools::install_github('seandavi/wdlRunR')' > /tmp/WDLRunR.R \
-    && Rscript /tmp/WDLRunR.R
+#RUN echo 'require(devtools)\ndevtools::install_github('seandavi/wdlRunR')' > /tmp/WDLRunR.R \
+#    && Rscript /tmp/WDLRunR.R
 
 # create an R user
 ENV HOME /home/user
